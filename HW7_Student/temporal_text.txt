@@ -1,0 +1,185 @@
+                   0 a=          x b=          x op=xxx s=          z overflow=x zero=x
+                   1 a=          x b=          x op=xxx s=          X overflow=x zero=x
+                 100 a=          1 b=         -5 op=110 s=          X overflow=x zero=x
+                 102 a=          1 b=         -5 op=110 s=          x overflow=x zero=x
+                 107 a=          1 b=         -5 op=110 s=          x overflow=0 zero=x
+                 108 a=          1 b=         -5 op=110 s=          X overflow=0 zero=x
+                 110 a=          1 b=         -5 op=110 s=          X overflow=0 zero=x
+                 112 a=          1 b=         -5 op=110 s=          6 overflow=0 zero=0
+                 200 a=       2048 b=       2058 op=010 s=          6 overflow=0 zero=0
+                 203 a=       2048 b=       2058 op=010 s=          7 overflow=0 zero=0
+                 204 a=       2048 b=       2058 op=010 s=       2054 overflow=0 zero=0
+                 205 a=       2048 b=       2058 op=010 s=       2052 overflow=0 zero=0
+                 207 a=       2048 b=       2058 op=010 s=       2048 overflow=0 zero=0
+                 208 a=       2048 b=       2058 op=010 s=         10 overflow=0 zero=0
+                 209 a=       2048 b=       2058 op=010 s=       4106 overflow=0 zero=0
+                 300 a=          4 b=          8 op=000 s=       4106 overflow=0 zero=0
+                 304 a=          4 b=          8 op=000 s=          0 overflow=0 zero=0
+                 306 a=          4 b=          8 op=000 s=          0 overflow=0 zero=1
+                 400 a=          2 b=          8 op=001 s=          0 overflow=0 zero=1
+                 403 a=          2 b=          8 op=001 s=         10 overflow=0 zero=1
+                 405 a=          2 b=          8 op=001 s=         10 overflow=0 zero=0
+                 500 a=         -1 b=         10 op=110 s=         10 overflow=0 zero=0
+                 503 a=         -1 b=         10 op=110 s=          0 overflow=0 zero=0
+                 504 a=         -1 b=         10 op=110 s=         -2 overflow=0 zero=0
+                 505 a=         -1 b=         10 op=110 s=        -26 overflow=0 zero=1
+                 506 a=         -1 b=         10 op=110 s=        -26 overflow=0 zero=0
+                 507 a=         -1 b=         10 op=110 s=         55 overflow=0 zero=0
+                 508 a=         -1 b=         10 op=110 s=        -11 overflow=0 zero=0
+                 509 a=         -1 b=         10 op=110 s=        -31 overflow=0 zero=0
+                 510 a=         -1 b=         10 op=110 s=        -11 overflow=0 zero=0
+                 600 a=          8 b=          8 op=100 s=        -11 overflow=0 zero=0
+                 602 a=          8 b=          8 op=100 s=        -11 overflow=0 zero=0
+                 603 a=          8 b=          8 op=100 s=        -11 overflow=0 zero=0
+                 604 a=          8 b=          8 op=100 s=          2 overflow=0 zero=0
+                 605 a=          8 b=          8 op=100 s=        -24 overflow=0 zero=0
+                 606 a=          8 b=          8 op=100 s=          6 overflow=0 zero=0
+                 607 a=          8 b=          8 op=100 s=        -44 overflow=0 zero=0
+                 608 a=          8 b=          8 op=100 s=         12 overflow=0 zero=0
+                 609 a=          8 b=          8 op=100 s=        -88 overflow=0 zero=0
+                 610 a=          8 b=          8 op=100 s=         24 overflow=0 zero=0
+                 611 a=          8 b=          8 op=100 s=       -176 overflow=0 zero=0
+                 612 a=          8 b=          8 op=100 s=         48 overflow=0 zero=0
+                 613 a=          8 b=          8 op=100 s=       -352 overflow=0 zero=0
+                 614 a=          8 b=          8 op=100 s=         96 overflow=0 zero=0
+                 615 a=          8 b=          8 op=100 s=       -704 overflow=0 zero=0
+                 616 a=          8 b=          8 op=100 s=        192 overflow=0 zero=0
+                 617 a=          8 b=          8 op=100 s=      -1408 overflow=0 zero=0
+                 618 a=          8 b=          8 op=100 s=        384 overflow=0 zero=0
+                 619 a=          8 b=          8 op=100 s=      -2816 overflow=0 zero=0
+                 620 a=          8 b=          8 op=100 s=        768 overflow=0 zero=0
+                 621 a=          8 b=          8 op=100 s=      -5632 overflow=0 zero=0
+                 622 a=          8 b=          8 op=100 s=       1536 overflow=0 zero=0
+                 623 a=          8 b=          8 op=100 s=     -11264 overflow=0 zero=0
+                 624 a=          8 b=          8 op=100 s=       3072 overflow=0 zero=0
+                 625 a=          8 b=          8 op=100 s=     -22528 overflow=0 zero=0
+                 626 a=          8 b=          8 op=100 s=       6144 overflow=0 zero=0
+                 627 a=          8 b=          8 op=100 s=     -45056 overflow=0 zero=0
+                 628 a=          8 b=          8 op=100 s=      12288 overflow=0 zero=0
+                 629 a=          8 b=          8 op=100 s=     -90112 overflow=0 zero=0
+                 630 a=          8 b=          8 op=100 s=      24576 overflow=0 zero=0
+                 631 a=          8 b=          8 op=100 s=    -180224 overflow=0 zero=0
+                 632 a=          8 b=          8 op=100 s=      49152 overflow=0 zero=0
+                 633 a=          8 b=          8 op=100 s=    -360448 overflow=0 zero=0
+                 634 a=          8 b=          8 op=100 s=      98304 overflow=0 zero=0
+                 635 a=          8 b=          8 op=100 s=    -720896 overflow=0 zero=0
+                 636 a=          8 b=          8 op=100 s=     196608 overflow=0 zero=0
+                 637 a=          8 b=          8 op=100 s=   -1441792 overflow=0 zero=0
+                 638 a=          8 b=          8 op=100 s=     393216 overflow=0 zero=0
+                 639 a=          8 b=          8 op=100 s=   -2883584 overflow=0 zero=0
+                 640 a=          8 b=          8 op=100 s=     786432 overflow=0 zero=0
+                 641 a=          8 b=          8 op=100 s=   -5767168 overflow=0 zero=0
+                 642 a=          8 b=          8 op=100 s=    1572864 overflow=0 zero=0
+                 643 a=          8 b=          8 op=100 s=  -11534336 overflow=0 zero=0
+                 644 a=          8 b=          8 op=100 s=    3145728 overflow=0 zero=0
+                 645 a=          8 b=          8 op=100 s=  -23068672 overflow=0 zero=0
+                 646 a=          8 b=          8 op=100 s=    6291456 overflow=0 zero=0
+                 647 a=          8 b=          8 op=100 s=  -46137344 overflow=0 zero=0
+                 648 a=          8 b=          8 op=100 s=   12582912 overflow=0 zero=0
+                 649 a=          8 b=          8 op=100 s=  -92274688 overflow=0 zero=0
+                 650 a=          8 b=          8 op=100 s=   25165824 overflow=0 zero=0
+                 651 a=          8 b=          8 op=100 s= -184549376 overflow=0 zero=0
+                 652 a=          8 b=          8 op=100 s=   50331648 overflow=0 zero=0
+                 653 a=          8 b=          8 op=100 s= -369098752 overflow=0 zero=0
+                 654 a=          8 b=          8 op=100 s=  100663296 overflow=0 zero=0
+                 655 a=          8 b=          8 op=100 s= -738197504 overflow=0 zero=0
+                 656 a=          8 b=          8 op=100 s=  201326592 overflow=1 zero=0
+                 657 a=          8 b=          8 op=100 s=-1476395008 overflow=0 zero=0
+                 658 a=          8 b=          8 op=100 s=  402653184 overflow=1 zero=0
+                 659 a=          8 b=          8 op=100 s= 1342177280 overflow=0 zero=0
+                 660 a=          8 b=          8 op=100 s=  805306368 overflow=1 zero=0
+                 661 a=          8 b=          8 op=100 s=-1610612736 overflow=1 zero=0
+                 662 a=          8 b=          8 op=100 s= 1610612736 overflow=1 zero=0
+                 663 a=          8 b=          8 op=100 s= 1073741824 overflow=0 zero=0
+                 664 a=          8 b=          8 op=100 s=-1073741824 overflow=1 zero=0
+                 665 a=          8 b=          8 op=100 s=-2147483648 overflow=1 zero=0
+                 666 a=          8 b=          8 op=100 s=-2147483648 overflow=0 zero=0
+                 667 a=          8 b=          8 op=100 s=          0 overflow=0 zero=0
+                 669 a=          8 b=          8 op=100 s=          0 overflow=0 zero=1
+                 700 a=          8 b=         17 op=111 s=          0 overflow=0 zero=1
+                 758 a=          8 b=         17 op=111 s=          0 overflow=1 zero=1
+                 760 a=          8 b=         17 op=111 s=          0 overflow=0 zero=1
+                 761 a=          8 b=         17 op=111 s=          1 overflow=0 zero=1
+                 763 a=          8 b=         17 op=111 s=          1 overflow=0 zero=0
+                 800 a=         15 b=         14 op=111 s=          1 overflow=0 zero=0
+                 858 a=         15 b=         14 op=111 s=          1 overflow=1 zero=0
+                 859 a=         15 b=         14 op=111 s=          1 overflow=0 zero=0
+                 860 a=         15 b=         14 op=111 s=          1 overflow=0 zero=0
+                 861 a=         15 b=         14 op=111 s=          0 overflow=0 zero=0
+                 862 a=         15 b=         14 op=111 s=          1 overflow=0 zero=0
+                 863 a=         15 b=         14 op=111 s=          0 overflow=0 zero=1
+                 864 a=         15 b=         14 op=111 s=          1 overflow=0 zero=0
+                 865 a=         15 b=         14 op=111 s=          0 overflow=1 zero=1
+                 866 a=         15 b=         14 op=111 s=          1 overflow=0 zero=0
+                 867 a=         15 b=         14 op=111 s=          0 overflow=0 zero=1
+                 868 a=         15 b=         14 op=111 s=          0 overflow=0 zero=0
+                 869 a=         15 b=         14 op=111 s=          0 overflow=0 zero=1
+                 900 a= 2147483647 b=          1 op=010 s=          0 overflow=0 zero=1
+                 904 a= 2147483647 b=          1 op=010 s= 2147483632 overflow=0 zero=1
+                 905 a= 2147483647 b=          1 op=010 s= 2147483632 overflow=1 zero=1
+                 906 a= 2147483647 b=          1 op=010 s= 2147483632 overflow=1 zero=0
+                 907 a= 2147483647 b=          1 op=010 s=-2147483647 overflow=0 zero=0
+                 908 a= 2147483647 b=          1 op=010 s= 2147483618 overflow=1 zero=0
+                 909 a= 2147483647 b=          1 op=010 s=-2147483648 overflow=0 zero=0
+                 910 a= 2147483647 b=          1 op=010 s= 2147483588 overflow=1 zero=0
+                 911 a= 2147483647 b=          1 op=010 s=-2147483648 overflow=0 zero=0
+                 912 a= 2147483647 b=          1 op=010 s= 2147483528 overflow=1 zero=0
+                 913 a= 2147483647 b=          1 op=010 s=-2147483648 overflow=0 zero=0
+                 914 a= 2147483647 b=          1 op=010 s= 2147483408 overflow=1 zero=0
+                 915 a= 2147483647 b=          1 op=010 s=-2147483648 overflow=0 zero=0
+                 916 a= 2147483647 b=          1 op=010 s= 2147483168 overflow=1 zero=0
+                 917 a= 2147483647 b=          1 op=010 s=-2147483648 overflow=0 zero=0
+                 918 a= 2147483647 b=          1 op=010 s= 2147482688 overflow=1 zero=0
+                 919 a= 2147483647 b=          1 op=010 s=-2147483648 overflow=0 zero=0
+                 920 a= 2147483647 b=          1 op=010 s= 2147481728 overflow=1 zero=0
+                 921 a= 2147483647 b=          1 op=010 s=-2147483648 overflow=0 zero=0
+                 922 a= 2147483647 b=          1 op=010 s= 2147479808 overflow=1 zero=0
+                 923 a= 2147483647 b=          1 op=010 s=-2147483648 overflow=0 zero=0
+                 924 a= 2147483647 b=          1 op=010 s= 2147475968 overflow=1 zero=0
+                 925 a= 2147483647 b=          1 op=010 s=-2147483648 overflow=0 zero=0
+                 926 a= 2147483647 b=          1 op=010 s= 2147468288 overflow=1 zero=0
+                 927 a= 2147483647 b=          1 op=010 s=-2147483648 overflow=0 zero=0
+                 928 a= 2147483647 b=          1 op=010 s= 2147452928 overflow=1 zero=0
+                 929 a= 2147483647 b=          1 op=010 s=-2147483648 overflow=0 zero=0
+                 930 a= 2147483647 b=          1 op=010 s= 2147422208 overflow=1 zero=0
+                 931 a= 2147483647 b=          1 op=010 s=-2147483648 overflow=0 zero=0
+                 932 a= 2147483647 b=          1 op=010 s= 2147360768 overflow=1 zero=0
+                 933 a= 2147483647 b=          1 op=010 s=-2147483648 overflow=0 zero=0
+                 934 a= 2147483647 b=          1 op=010 s= 2147237888 overflow=1 zero=0
+                 935 a= 2147483647 b=          1 op=010 s=-2147483648 overflow=0 zero=0
+                 936 a= 2147483647 b=          1 op=010 s= 2146992128 overflow=1 zero=0
+                 937 a= 2147483647 b=          1 op=010 s=-2147483648 overflow=0 zero=0
+                 938 a= 2147483647 b=          1 op=010 s= 2146500608 overflow=1 zero=0
+                 939 a= 2147483647 b=          1 op=010 s=-2147483648 overflow=0 zero=0
+                 940 a= 2147483647 b=          1 op=010 s= 2145517568 overflow=1 zero=0
+                 941 a= 2147483647 b=          1 op=010 s=-2147483648 overflow=0 zero=0
+                 942 a= 2147483647 b=          1 op=010 s= 2143551488 overflow=1 zero=0
+                 943 a= 2147483647 b=          1 op=010 s=-2147483648 overflow=0 zero=0
+                 944 a= 2147483647 b=          1 op=010 s= 2139619328 overflow=1 zero=0
+                 945 a= 2147483647 b=          1 op=010 s=-2147483648 overflow=0 zero=0
+                 946 a= 2147483647 b=          1 op=010 s= 2131755008 overflow=1 zero=0
+                 947 a= 2147483647 b=          1 op=010 s=-2147483648 overflow=0 zero=0
+                 948 a= 2147483647 b=          1 op=010 s= 2116026368 overflow=1 zero=0
+                 949 a= 2147483647 b=          1 op=010 s=-2147483648 overflow=0 zero=0
+                 950 a= 2147483647 b=          1 op=010 s= 2084569088 overflow=1 zero=0
+                 951 a= 2147483647 b=          1 op=010 s=-2147483648 overflow=0 zero=0
+                 952 a= 2147483647 b=          1 op=010 s= 2021654528 overflow=1 zero=0
+                 953 a= 2147483647 b=          1 op=010 s=-2147483648 overflow=0 zero=0
+                 954 a= 2147483647 b=          1 op=010 s= 1895825408 overflow=1 zero=0
+                 955 a= 2147483647 b=          1 op=010 s=-2147483648 overflow=0 zero=0
+                 956 a= 2147483647 b=          1 op=010 s= 1644167168 overflow=1 zero=0
+                 957 a= 2147483647 b=          1 op=010 s=-2147483648 overflow=0 zero=0
+                 958 a= 2147483647 b=          1 op=010 s= 1140850688 overflow=1 zero=0
+                 959 a= 2147483647 b=          1 op=010 s=-2147483648 overflow=1 zero=0
+                 960 a= 2147483647 b=          1 op=010 s=  134217728 overflow=1 zero=0
+                 961 a= 2147483647 b=          1 op=010 s=-2147483648 overflow=1 zero=0
+                 962 a= 2147483647 b=          1 op=010 s=-1879048192 overflow=1 zero=0
+                 963 a= 2147483647 b=          1 op=010 s=-2147483648 overflow=1 zero=0
+                 964 a= 2147483647 b=          1 op=010 s=-1610612736 overflow=1 zero=0
+                 965 a= 2147483647 b=          1 op=010 s=-2147483648 overflow=0 zero=0
+                 966 a= 2147483647 b=          1 op=010 s=-1073741824 overflow=1 zero=0
+                 967 a= 2147483647 b=          1 op=010 s=-2147483648 overflow=1 zero=0
+                 968 a= 2147483647 b=          1 op=010 s=          0 overflow=1 zero=0
+                 969 a= 2147483647 b=          1 op=010 s=-2147483648 overflow=1 zero=0
+                 970 a= 2147483647 b=          1 op=010 s=-2147483648 overflow=1 zero=1
+                 971 a= 2147483647 b=          1 op=010 s=-2147483648 overflow=1 zero=0
